@@ -1,0 +1,195 @@
+.contactsection1 {
+    background-image: url(../../background/shopbackgroundimage.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 144vw;
+    height: 21.6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    h1 {
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 72px;
+    }
+}
+.contactsection1 .linkdivider {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.8rem;
+    .linkage {
+        color: #000000;
+        text-decoration: none;
+    }
+}
+
+.contactsection3 {
+    display: flex;
+    background-color: #FAF3EA;
+    align-items: center;
+    justify-content: center;
+    max-width: 144vw;
+    min-height: 25vh;
+}
+
+.contactsection3 .icontext {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    .icontext12 {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        h4 {
+            font-family: Poppins;
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 37.5px;
+            text-align: left;
+
+        }
+        p {
+            font-family: Poppins;
+            font-size: 0.8rem;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            color: #898989;
+
+        }
+    }
+}
+
+.shopgallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+.galleryimage {
+    width: 83vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.galleryimage .img2 .img2name {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    padding-top: 0.5rem;
+}
+
+.galleryimage .img2 .img2price {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+}
+
+.galleryimage .img2 .span1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #898989;
+}
+
+.galleryimage .img2 .span2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #B0B0B0;
+    padding-left: 0.5rem;
+    -webkit-text-stroke: 0.5px #B0B0B0;
+}
+
+.shopsection1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F1E7;
+    justify-content: space-evenly;
+
+    .shopicons {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+
+        .pad {
+            padding: 0 3rem;
+        }
+    }
+
+    .shoppees {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+
+        .pad {
+            padding: 0 3rem;
+        }
+
+        .span {
+            gap: 2rem;
+            background-color: #FFFFFF;
+            width: 3rem;
+            height: 8rem;
+        }
+    }
+}
+
+.img22 {
+    position: relative;
+    width: 50%;
+}
+.image222 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    /* height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden; */
+}
+
+.middly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    background: rgb(0, 0, 0, 0.6 );
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0; 
+}
+
+.img22:hover .image {
+    opacity: 0.3;
+}
+
+.img22:hover .middly {
+    opacity: 1;
+}
+
+.test {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}

@@ -1,0 +1,207 @@
+.navDiv {
+    background-image: url(../../background/navbackground.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    max-width: 144vw;
+    height: 108vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.navDiv .navinner {
+    background-color: #FFF3E3;
+    width: 47vw;
+    height: 60vh;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    border-radius: 1rem;
+}
+.navDiv .navinner .p1 {
+    margin: 4rem 0 1rem 3rem;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.navDiv .navinner .p2 {
+    margin: 0 0 1rem 3rem; 
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+  
+}
+.navDiv .navinner .h2 {
+    margin: 0 0 1rem 3rem; 
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    color: #B88E2F;
+  
+}
+  
+  
+.navDiv .navinner .bt {
+    font-family: Poppins;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    width: 8em;
+    height: 3em;
+    background-color: #B88E2F;
+    margin-left: 3rem;
+    margin-top: 1.7rem;
+    border: none;
+    color: #FFFFFF;
+}
+  
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 144vw;
+    max-height: 120vh;
+}
+  
+.section1 .browse {
+    display: flex;
+    margin: 2rem 0 0.5rem 0;
+    gap: 1rem;
+    align-items: center;
+    p {
+        padding: 0 10rem;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: center;
+        color: #333333;
+      }
+}
+  
+.section1 h3{
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 48px;
+}
+.section1 p {
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
+}
+  
+.gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 135vh;
+      margin-top: 4rem;
+      h2 {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+      }
+      .bt2 {
+        border: 1px solid #B88E2F;
+        width: 14rem;
+        height: 4em;
+      }
+}
+  
+.gallery .galleryimage {
+    width: 83vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.gallery .galleryimage .img2 {
+    background-color: #F4F5F7;
+}
+  
+.gallery .galleryimage .img2 .img2name {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    padding-top: 0.5rem;
+}
+    
+.gallery .galleryimage .img2 .img2price {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+}
+.gallery .galleryimage .img2 .span1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #898989;
+}
+.gallery .galleryimage .img2 .span2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #B0B0B0;
+    padding-left: 0.5rem;
+    -webkit-text-stroke: 0.5px #B0B0B0;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF8F3;
+    max-width: 144vw;
+    height: 90vh;
+}
+
+.carouselphoto {
+    display: flex;
+    flex-direction: row;
+}
+.sect3 {
+    max-width: 144vw;
+    max-height: 98vh;
+    p {
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: center;
+  
+    }
+    h2 {
+      text-align: center;
+      font-family: Poppins;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+    }
+}
+
